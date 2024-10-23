@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://cdw1r3bhguh5j"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_guxyc"]
+load_path = "res://.godot/imported/4K Texture Modern Art Numbered.png-6f4465150627e08279766f057a695e7a.s3tc.ctex"
+
+[resource]
+atlas = SubResource("CompressedTexture2D_guxyc")
+region = Rect2(512, 0, 512, 512)

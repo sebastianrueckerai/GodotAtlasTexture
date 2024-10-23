@@ -1,0 +1,854 @@
+[gd_scene load_steps=131 format=3 uid="uid://r0gtuxw0giy3"]
+
+[ext_resource type="Texture2D" uid="uid://b5uq2ws7o8g3l" path="res://AtlasTest/Atlas/Atlas01.tres" id="1_jjymd"]
+[ext_resource type="Texture2D" uid="uid://dvow76sfddomd" path="res://AtlasTest/TestTextures/Texture_02.png" id="2_aci17"]
+[ext_resource type="Texture2D" uid="uid://c500xv7vd0bg1" path="res://AtlasTest/TestTextures/Texture_03.png" id="3_n31pk"]
+[ext_resource type="Texture2D" uid="uid://wfpgvhaiuniu" path="res://AtlasTest/TestTextures/Texture_04.png" id="4_jlwr5"]
+[ext_resource type="Texture2D" uid="uid://w5dpay5k67lg" path="res://AtlasTest/TestTextures/Texture_05.png" id="5_5m48e"]
+[ext_resource type="Texture2D" uid="uid://ck8gvrt5ircb0" path="res://AtlasTest/TestTextures/Texture_06.png" id="6_7ncbi"]
+[ext_resource type="Texture2D" uid="uid://dthqpajoxxuu7" path="res://AtlasTest/TestTextures/Texture_07.png" id="7_yqo53"]
+[ext_resource type="Texture2D" uid="uid://bnhdwb5pk5if5" path="res://AtlasTest/TestTextures/Texture_08.png" id="8_hixjp"]
+[ext_resource type="Texture2D" uid="uid://dso6y6fhvk8p0" path="res://AtlasTest/TestTextures/Texture_09.png" id="9_fx634"]
+[ext_resource type="Texture2D" uid="uid://jnt6lifrmsbv" path="res://AtlasTest/TestTextures/Texture_10.png" id="10_kqvvc"]
+[ext_resource type="Texture2D" uid="uid://ort2q51de37l" path="res://AtlasTest/TestTextures/Texture_11.png" id="11_uolcl"]
+[ext_resource type="Texture2D" uid="uid://dixkfno1tvoi6" path="res://AtlasTest/TestTextures/Texture_12.png" id="12_eqsc4"]
+[ext_resource type="Texture2D" uid="uid://b1femnd1al24y" path="res://AtlasTest/TestTextures/Texture_13.png" id="13_p7xrc"]
+[ext_resource type="Texture2D" uid="uid://dugxhnrvwwec5" path="res://AtlasTest/TestTextures/Texture_14.png" id="14_mp6th"]
+[ext_resource type="Texture2D" uid="uid://bxgbkspb7ly3m" path="res://AtlasTest/TestTextures/Texture_15.png" id="15_t1tcc"]
+[ext_resource type="Texture2D" uid="uid://ymft10qrqb81" path="res://AtlasTest/TestTextures/Texture_16.png" id="16_8saxq"]
+[ext_resource type="Texture2D" uid="uid://cwiuuqpl585el" path="res://AtlasTest/TestTextures/Texture_17.png" id="17_p86ly"]
+[ext_resource type="Texture2D" uid="uid://be77pagjjtvol" path="res://AtlasTest/TestTextures/Texture_18.png" id="18_uq367"]
+[ext_resource type="Texture2D" uid="uid://udpajqtxlter" path="res://AtlasTest/TestTextures/Texture_19.png" id="19_aft41"]
+[ext_resource type="Texture2D" uid="uid://bwmc2423k7nve" path="res://AtlasTest/TestTextures/Texture_20.png" id="20_fr5rf"]
+[ext_resource type="Texture2D" uid="uid://bjxuuvd0ojeej" path="res://AtlasTest/TestTextures/Texture_21.png" id="21_us12m"]
+[ext_resource type="Texture2D" uid="uid://u7ogmtv2hbqk" path="res://AtlasTest/TestTextures/Texture_22.png" id="22_rgfrc"]
+[ext_resource type="Texture2D" uid="uid://rccmws0kculq" path="res://AtlasTest/TestTextures/Texture_23.png" id="23_ml62p"]
+[ext_resource type="Texture2D" uid="uid://crtunxmo8l5sg" path="res://AtlasTest/TestTextures/Texture_24.png" id="24_ohnui"]
+[ext_resource type="Texture2D" uid="uid://245i2l8pbrr7" path="res://AtlasTest/TestTextures/Texture_25.png" id="25_6tsgd"]
+[ext_resource type="Texture2D" uid="uid://dd45l786ja4x0" path="res://AtlasTest/TestTextures/Texture_26.png" id="26_2ck3d"]
+[ext_resource type="Texture2D" uid="uid://b5jcqm55hwimw" path="res://AtlasTest/TestTextures/Texture_27.png" id="27_5viub"]
+[ext_resource type="Texture2D" uid="uid://da5u1d8cfv51r" path="res://AtlasTest/TestTextures/Texture_28.png" id="28_g8ycl"]
+[ext_resource type="Texture2D" uid="uid://rasw8m044f1g" path="res://AtlasTest/TestTextures/Texture_29.png" id="29_2ok38"]
+[ext_resource type="Texture2D" uid="uid://bf4f02ej52vjl" path="res://AtlasTest/TestTextures/Texture_30.png" id="30_nc038"]
+[ext_resource type="Texture2D" uid="uid://crwvagj0selk7" path="res://AtlasTest/TestTextures/Texture_31.png" id="31_jfips"]
+[ext_resource type="Texture2D" uid="uid://mjtbfw62vdwo" path="res://AtlasTest/TestTextures/Texture_32.png" id="32_eu0vd"]
+[ext_resource type="Texture2D" uid="uid://os7utb7ikw6w" path="res://AtlasTest/TestTextures/Texture_33.png" id="33_wypvq"]
+[ext_resource type="Texture2D" uid="uid://ugfoeoisxxkq" path="res://AtlasTest/TestTextures/Texture_34.png" id="34_oinvu"]
+[ext_resource type="Texture2D" uid="uid://ctbb8geg6xuql" path="res://AtlasTest/TestTextures/Texture_35.png" id="35_dts17"]
+[ext_resource type="Texture2D" uid="uid://c67lwmnxgjwgq" path="res://AtlasTest/TestTextures/Texture_36.png" id="36_a7j56"]
+[ext_resource type="Texture2D" uid="uid://dulstdkb367vh" path="res://AtlasTest/TestTextures/Texture_37.png" id="37_hdk8a"]
+[ext_resource type="Texture2D" uid="uid://djarqa6fanp6w" path="res://AtlasTest/TestTextures/Texture_38.png" id="38_3rf4c"]
+[ext_resource type="Texture2D" uid="uid://bbyffntxau66l" path="res://AtlasTest/TestTextures/Texture_39.png" id="39_ccpnv"]
+[ext_resource type="Texture2D" uid="uid://ckmuvtjxa0hwf" path="res://AtlasTest/TestTextures/Texture_40.png" id="40_0qetl"]
+[ext_resource type="Texture2D" uid="uid://b2daolmeb5v73" path="res://AtlasTest/TestTextures/Texture_41.png" id="41_fqrpl"]
+[ext_resource type="Texture2D" uid="uid://dc77n5w88pp85" path="res://AtlasTest/TestTextures/Texture_42.png" id="42_n18vr"]
+[ext_resource type="Texture2D" uid="uid://dw06pxghx106u" path="res://AtlasTest/TestTextures/Texture_43.png" id="43_0kt4s"]
+[ext_resource type="Texture2D" uid="uid://buarsw20xcq6b" path="res://AtlasTest/TestTextures/Texture_44.png" id="44_t8he2"]
+[ext_resource type="Texture2D" uid="uid://cmkckmanv4vhf" path="res://AtlasTest/TestTextures/Texture_45.png" id="45_wq2y7"]
+[ext_resource type="Texture2D" uid="uid://1td1m1woh8qj" path="res://AtlasTest/TestTextures/Texture_46.png" id="46_2sfqm"]
+[ext_resource type="Texture2D" uid="uid://cif8vcdc57ern" path="res://AtlasTest/TestTextures/Texture_47.png" id="47_n8d7u"]
+[ext_resource type="Texture2D" uid="uid://1o6du7g2mvy0" path="res://AtlasTest/TestTextures/Texture_48.png" id="48_pnwua"]
+[ext_resource type="Texture2D" uid="uid://c4kqucuvogdtp" path="res://AtlasTest/TestTextures/Texture_49.png" id="49_11ji5"]
+[ext_resource type="Texture2D" uid="uid://ygsfbkqwkvty" path="res://AtlasTest/TestTextures/Texture_50.png" id="50_brg61"]
+[ext_resource type="Texture2D" uid="uid://bsrry283qmyaj" path="res://AtlasTest/TestTextures/Texture_51.png" id="51_u2va2"]
+[ext_resource type="Texture2D" uid="uid://cby85bl6bwl5s" path="res://AtlasTest/TestTextures/Texture_52.png" id="52_jvksw"]
+[ext_resource type="Texture2D" uid="uid://diunqsejp8t3j" path="res://AtlasTest/TestTextures/Texture_53.png" id="53_vq5e1"]
+[ext_resource type="Texture2D" uid="uid://coqmuepq8d0fm" path="res://AtlasTest/TestTextures/Texture_54.png" id="54_al44e"]
+[ext_resource type="Texture2D" uid="uid://y7j7cx4bsat" path="res://AtlasTest/TestTextures/Texture_55.png" id="55_inn36"]
+[ext_resource type="Texture2D" uid="uid://bmdsvhbgosdgq" path="res://AtlasTest/TestTextures/Texture_56.png" id="56_60tmw"]
+[ext_resource type="Texture2D" uid="uid://cdw1r3bhguh5j" path="res://AtlasTest/Atlas/Atlas02.tres" id="57_8510b"]
+[ext_resource type="Texture2D" uid="uid://br3otpg2p30mb" path="res://AtlasTest/TestTextures/Texture_58.png" id="58_c7u0p"]
+[ext_resource type="Texture2D" uid="uid://boptkgrn2drpr" path="res://AtlasTest/TestTextures/Texture_59.png" id="59_d35bh"]
+[ext_resource type="Texture2D" uid="uid://bd88iknn3koho" path="res://AtlasTest/TestTextures/Texture_60.png" id="60_apgmq"]
+[ext_resource type="Texture2D" uid="uid://bast1cuxbj8ux" path="res://AtlasTest/TestTextures/Texture_61.png" id="61_gkd0r"]
+[ext_resource type="Texture2D" uid="uid://dnwmgtatmorxg" path="res://AtlasTest/TestTextures/Texture_62.png" id="62_dbj6p"]
+[ext_resource type="Texture2D" uid="uid://cwcvvq5pkvx6s" path="res://AtlasTest/TestTextures/Texture_63.png" id="63_7xenr"]
+[ext_resource type="Texture2D" uid="uid://ce8jqfjeahwk1" path="res://AtlasTest/TestTextures/Texture_64.png" id="64_f4136"]
+[ext_resource type="Script" path="res://Camera3D.gd" id="65_hpin4"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_efbu4"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ol04m"]
+albedo_texture = ExtResource("1_jjymd")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7744r"]
+albedo_texture = ExtResource("2_aci17")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gwe3x"]
+albedo_texture = ExtResource("3_n31pk")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_c8rsi"]
+albedo_texture = ExtResource("4_jlwr5")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vmysh"]
+albedo_texture = ExtResource("5_5m48e")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8ixm4"]
+albedo_texture = ExtResource("6_7ncbi")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kk2kp"]
+albedo_texture = ExtResource("7_yqo53")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tuh74"]
+albedo_texture = ExtResource("8_hixjp")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_iy3w4"]
+albedo_texture = ExtResource("9_fx634")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_867ml"]
+albedo_texture = ExtResource("10_kqvvc")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0fmwn"]
+albedo_texture = ExtResource("11_uolcl")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fdjao"]
+albedo_texture = ExtResource("12_eqsc4")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4qxdn"]
+albedo_texture = ExtResource("13_p7xrc")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_f7kc4"]
+albedo_texture = ExtResource("14_mp6th")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_a4wd8"]
+albedo_texture = ExtResource("15_t1tcc")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vu1pd"]
+albedo_texture = ExtResource("16_8saxq")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_j3nkh"]
+albedo_texture = ExtResource("17_p86ly")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mm41b"]
+albedo_texture = ExtResource("18_uq367")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kcvmw"]
+albedo_texture = ExtResource("19_aft41")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8vfe2"]
+albedo_texture = ExtResource("20_fr5rf")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_w2rqs"]
+albedo_texture = ExtResource("21_us12m")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gwle3"]
+albedo_texture = ExtResource("22_rgfrc")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_huky4"]
+albedo_texture = ExtResource("23_ml62p")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_h4scq"]
+albedo_texture = ExtResource("24_ohnui")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_83fca"]
+albedo_texture = ExtResource("25_6tsgd")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mjh5b"]
+albedo_texture = ExtResource("26_2ck3d")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_p0i7w"]
+albedo_texture = ExtResource("27_5viub")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_u4rfe"]
+albedo_texture = ExtResource("28_g8ycl")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_t1cwi"]
+albedo_texture = ExtResource("29_2ok38")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_orljx"]
+albedo_texture = ExtResource("30_nc038")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7f2cp"]
+albedo_texture = ExtResource("31_jfips")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jf8rb"]
+albedo_texture = ExtResource("32_eu0vd")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jg6v4"]
+albedo_texture = ExtResource("33_wypvq")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6adr8"]
+albedo_texture = ExtResource("34_oinvu")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_uhfq8"]
+albedo_texture = ExtResource("35_dts17")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tpkpk"]
+albedo_texture = ExtResource("36_a7j56")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_087cf"]
+albedo_texture = ExtResource("37_hdk8a")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wo2tw"]
+albedo_texture = ExtResource("38_3rf4c")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_em3fp"]
+albedo_texture = ExtResource("39_ccpnv")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wg54t"]
+albedo_texture = ExtResource("40_0qetl")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_msr7c"]
+albedo_texture = ExtResource("41_fqrpl")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wthgx"]
+albedo_texture = ExtResource("42_n18vr")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3dciw"]
+albedo_texture = ExtResource("43_0kt4s")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0vu6n"]
+albedo_texture = ExtResource("44_t8he2")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jbdld"]
+albedo_texture = ExtResource("45_wq2y7")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7ponk"]
+albedo_texture = ExtResource("46_2sfqm")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ar5n6"]
+albedo_texture = ExtResource("47_n8d7u")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sq3cp"]
+albedo_texture = ExtResource("48_pnwua")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cac56"]
+albedo_texture = ExtResource("49_11ji5")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_aoeuy"]
+albedo_texture = ExtResource("50_brg61")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_u3647"]
+albedo_texture = ExtResource("51_u2va2")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7h4r0"]
+albedo_texture = ExtResource("52_jvksw")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ihja1"]
+albedo_texture = ExtResource("53_vq5e1")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3yqid"]
+albedo_texture = ExtResource("54_al44e")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2h81i"]
+albedo_texture = ExtResource("55_inn36")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4f163"]
+albedo_texture = ExtResource("56_60tmw")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_n3r0v"]
+albedo_texture = ExtResource("57_8510b")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_j5t6a"]
+albedo_texture = ExtResource("58_c7u0p")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_f1ljc"]
+albedo_texture = ExtResource("59_d35bh")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_txml3"]
+albedo_texture = ExtResource("60_apgmq")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ktwi7"]
+albedo_texture = ExtResource("61_gkd0r")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2ynlh"]
+albedo_texture = ExtResource("62_dbj6p")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kpsxj"]
+albedo_texture = ExtResource("63_7xenr")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ioiqn"]
+albedo_texture = ExtResource("64_f4136")
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Floor" type="CSGBox3D" parent="."]
+transform = Transform3D(100, 0, 0, 0, 1, 0, 0, 0, 100, -0.233137, 0.347134, -0.990695)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Floor"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Floor/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D1" type="CSGBox3D" parent="."]
+transform = Transform3D(3, 0, 0, 0, 1, 0, 0, 0, 1, 5.04393, 1.68246, -4.59247)
+material_override = SubResource("StandardMaterial3D_ol04m")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D1"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D1/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 1, 0, 0, 0, 1, -0.0622301, 1.68246, -4.59247)
+material_override = SubResource("StandardMaterial3D_7744r")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D2"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D2/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="."]
+transform = Transform3D(4, 0, 0, 0, 1, 0, 0, 0, 1, 9.80133, 1.68246, -4.59247)
+material_override = SubResource("StandardMaterial3D_gwe3x")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D3"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D3/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 1, 0, 0, 0, 1, 14.3485, 1.68246, -4.59247)
+material_override = SubResource("StandardMaterial3D_c8rsi")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D4"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D4/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="."]
+transform = Transform3D(3, 0, 0, 0, 1, 0, 0, 0, 1, 18.61, 1.68246, -4.59247)
+material_override = SubResource("StandardMaterial3D_vmysh")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D5"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D5/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D6" type="CSGBox3D" parent="."]
+transform = Transform3D(3, 0, 0, 0, 1, 0, 0, 0, 1, 0.439486, 3.1006, -4.59247)
+material_override = SubResource("StandardMaterial3D_8ixm4")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D6"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D6/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D7" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.18712, 3.18923, -4.59247)
+material_override = SubResource("StandardMaterial3D_kk2kp")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D7"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D7/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D8" type="CSGBox3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 1, 0, 0, 0, 1, 5.72795, 3.13014, -4.59247)
+material_override = SubResource("StandardMaterial3D_tuh74")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D8"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D8/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D9" type="CSGBox3D" parent="."]
+transform = Transform3D(4, 0, 0, 0, 1, 0, 0, 0, 1, 9.4801, 3.24832, -4.59247)
+material_override = SubResource("StandardMaterial3D_iy3w4")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D9"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D9/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D10" type="CSGBox3D" parent="."]
+transform = Transform3D(3, 0, 0, 0, 1, 0, 0, 0, 1, 13.6754, 3.13014, -4.59247)
+material_override = SubResource("StandardMaterial3D_867ml")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D10"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D10/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D11" type="CSGBox3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 1, 0, 0, 0, 1, 16.8367, 3.07105, -4.59247)
+material_override = SubResource("StandardMaterial3D_0fmwn")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D11"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D11/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D12" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19.2889, 3.04151, -4.59247)
+material_override = SubResource("StandardMaterial3D_fdjao")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D12"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D12/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D13" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.565025, 4.45964, -4.59247)
+material_override = SubResource("StandardMaterial3D_4qxdn")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D13"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D13/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D14" type="CSGBox3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 1, 0, 0, 0, 1, 1.56218, 4.48919, -4.59247)
+material_override = SubResource("StandardMaterial3D_f7kc4")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D14"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D14/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D15" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 3, 0, 0, 0, 1, 3.60074, 5.67097, -4.59247)
+material_override = SubResource("StandardMaterial3D_a4wd8")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D15"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D15/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D16" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.13706, 4.72554, -4.59247)
+material_override = SubResource("StandardMaterial3D_vu1pd")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D16"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D16/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D17" type="CSGBox3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 1, 0, 0, 0, 1, 7.35289, 4.66645, -4.59247)
+material_override = SubResource("StandardMaterial3D_j3nkh")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D17"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D17/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D18" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 2, 0, 0, 0, 1, 9.1551, 5.10962, -4.59247)
+material_override = SubResource("StandardMaterial3D_mm41b")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D18"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D18/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D19" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 3, 0, 0, 0, 1, 10.6027, 5.62946, -4.592)
+material_override = SubResource("StandardMaterial3D_kcvmw")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D19"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D19/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D20" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.9618, 4.696, -4.59247)
+material_override = SubResource("StandardMaterial3D_8vfe2")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D20"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D20/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D21" type="CSGBox3D" parent="."]
+transform = Transform3D(3, 0, 0, 0, 1, 0, 0, 0, 1, 14.2072, 4.72554, -4.59247)
+material_override = SubResource("StandardMaterial3D_w2rqs")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D21"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D21/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D22" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 2, 0, 0, 0, 1, 16.7185, 5.13917, -4.59247)
+material_override = SubResource("StandardMaterial3D_gwle3")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D22"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D22/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D23" type="CSGBox3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 1, 0, 0, 0, 1, 18.7571, 4.696, -4.59247)
+material_override = SubResource("StandardMaterial3D_huky4")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D23"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D23/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D24" type="CSGBox3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 1, -0.0627708, 6.38003, -4.59247)
+material_override = SubResource("StandardMaterial3D_h4scq")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D24"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D24/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D25" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.85762, 5.96641, -4.59247)
+material_override = SubResource("StandardMaterial3D_83fca")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D25"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D25/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D26" type="CSGBox3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 1, 0, 0, 0, 1, 5.75749, 6.32095, -4.59247)
+material_override = SubResource("StandardMaterial3D_mjh5b")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D26"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D26/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D27" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.67788, 6.26186, -4.59247)
+material_override = SubResource("StandardMaterial3D_p0i7w")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D27"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D27/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D28" type="CSGBox3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 1, 0, 0, 0, 1, 12.5823, 6.05505, -4.59247)
+material_override = SubResource("StandardMaterial3D_u4rfe")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D28"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D28/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D29" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.3549, 6.11413, -4.59247)
+material_override = SubResource("StandardMaterial3D_t1cwi")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D29"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D29/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D30" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 2, 0, 0, 0, 1, 18.2253, 6.5573, -4.59247)
+material_override = SubResource("StandardMaterial3D_orljx")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D30"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D30/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D31" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19.407, 6.08459, -4.59247)
+material_override = SubResource("StandardMaterial3D_7f2cp")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D31"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D31/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D32" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.476393, 8.27088, -4.59247)
+material_override = SubResource("StandardMaterial3D_jf8rb")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D32"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D32/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D33" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.1506, 10.2504, -4.59247)
+material_override = SubResource("StandardMaterial3D_jg6v4")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D33"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D33/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D34" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.675841, 8.27088, -4.59247)
+material_override = SubResource("StandardMaterial3D_6adr8")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D34"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D34/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D35" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 2, 0, 0, 0, 1, 1.94625, 7.70953, -4.59247)
+material_override = SubResource("StandardMaterial3D_uhfq8")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D35"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D35/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D36" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.60074, 8.00498, -4.59247)
+material_override = SubResource("StandardMaterial3D_tpkpk")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D36"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D36/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D37" type="CSGBox3D" parent="."]
+transform = Transform3D(4, 0, 0, 0, 1, 0, 0, 0, 1, 6.37792, 7.73908, -4.59247)
+material_override = SubResource("StandardMaterial3D_087cf")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D37"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D37/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D38" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 2, 0, 0, 0, 1, 9.18465, 7.50272, -4.59247)
+material_override = SubResource("StandardMaterial3D_wo2tw")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D38"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D38/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D39" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.5437, 7.91635, -4.59247)
+material_override = SubResource("StandardMaterial3D_em3fp")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D39"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D39/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D40" type="CSGBox3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 1, 12.5527, 7.91635, -4.59247)
+material_override = SubResource("StandardMaterial3D_wg54t")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D40"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D40/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D41" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.3254, 7.56181, -4.59247)
+material_override = SubResource("StandardMaterial3D_msr7c")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D41"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D41/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D42" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 3, 0, 0, 0, 1, 15.5958, 7.00047, -4.59247)
+material_override = SubResource("StandardMaterial3D_wthgx")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D42"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D42/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D43" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.9253, 6.94138, -4.59247)
+material_override = SubResource("StandardMaterial3D_3dciw")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D43"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D43/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D44" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19.407, 7.32546, -4.59247)
+material_override = SubResource("StandardMaterial3D_0vu6n")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D44"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D44/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D45" type="CSGBox3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 1, 0, 0, 0, 1, 0.232676, 9.4822, -4.59247)
+material_override = SubResource("StandardMaterial3D_jbdld")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D45"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D45/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D46" type="CSGBox3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 1, 0, 0, 0, 1, 2.44851, 9.51175, -4.59247)
+material_override = SubResource("StandardMaterial3D_7ponk")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D46"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D46/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D47" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.25072, 9.42311, -4.59247)
+material_override = SubResource("StandardMaterial3D_ar5n6")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D47"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D47/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D48" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 2, 0, 0, 0, 1, 5.49159, 9.45266, -4.59247)
+material_override = SubResource("StandardMaterial3D_sq3cp")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D48"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D48/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D49" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 2, 0, 0, 0, 1, 6.82109, 9.54129, -4.59247)
+material_override = SubResource("StandardMaterial3D_cac56")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D49"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D49/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D50" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.03242, 8.97995, -4.59247)
+material_override = SubResource("StandardMaterial3D_aoeuy")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D50"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D50/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D51" type="CSGBox3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 1, 0, 0, 0, 1, 9.89372, 9.18676, -4.59247)
+material_override = SubResource("StandardMaterial3D_u3647")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D51"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D51/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D52" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.6664, 9.57084, -4.59247)
+material_override = SubResource("StandardMaterial3D_7h4r0")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D52"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D52/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D53" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.8777, 9.60038, -4.59247)
+material_override = SubResource("StandardMaterial3D_ihja1")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D53"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D53/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D54" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 2, 0, 0, 0, 1, 14.2663, 9.15721, -4.59247)
+material_override = SubResource("StandardMaterial3D_3yqid")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D54"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D54/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D55" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.6253, 9.2163, -4.59247)
+material_override = SubResource("StandardMaterial3D_2h81i")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D55"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D55/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D56" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 3, 0, 0, 0, 1, 16.8071, 9.18676, -4.59247)
+material_override = SubResource("StandardMaterial3D_4f163")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D56"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D56/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D57" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.12352, 1.65292, -4.59247)
+material_override = SubResource("StandardMaterial3D_n3r0v")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D57"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D57/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D58" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 3, 0, 0, 0, 1, 18.0184, 9.24585, -4.59247)
+material_override = SubResource("StandardMaterial3D_j5t6a")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D58"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D58/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D59" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 2, 0, 0, 0, 1, 19.2298, 9.09812, -4.59247)
+material_override = SubResource("StandardMaterial3D_f1ljc")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D59"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D59/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D60" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.594572, 10.7822, -4.59247)
+material_override = SubResource("StandardMaterial3D_txml3")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D60"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D60/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D61" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.73493, 10.8117, -4.59247)
+material_override = SubResource("StandardMaterial3D_ktwi7")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D61"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D61/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D62" type="CSGBox3D" parent="."]
+transform = Transform3D(3, 0, 0, 0, 1, 0, 0, 0, 1, 3.25253, 10.8716, -4.59247)
+material_override = SubResource("StandardMaterial3D_2ynlh")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D62"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D62/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D63" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.58964, 11.2375, -4.59247)
+material_override = SubResource("StandardMaterial3D_kpsxj")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D63"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D63/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="CSGBox3D64" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.91432, 11.3461, -4.59247)
+material_override = SubResource("StandardMaterial3D_ioiqn")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="CSGBox3D64"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D64/StaticBody3D"]
+shape = SubResource("BoxShape3D_efbu4")
+
+[node name="FreeLookCamera" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.92542, 5.40285, 6.06928)
+script = ExtResource("65_hpin4")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.866025, 0.5, 0, -0.5, 0.866025, 9, 13, 8)
